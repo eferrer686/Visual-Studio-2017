@@ -30,6 +30,8 @@
 #include <stdio.h>
 #include <math.h>
 
+int flag = 0;
+
 void rectangle(float x, float y ,float w, float h, float r, float g, float b) {
 	
 	//printf("%.3f %.3f %.3f \n", r, g, b);
@@ -70,7 +72,7 @@ void circle() {
 void japan() {
 	circle();
 	rectangle(0,0,4,3,1,1,1);
-	glEnd();
+	
 }
 
 //Jamaica Flag
@@ -119,6 +121,19 @@ void finland() {
 	rectangle(-0.75, 0, 0.65, 3, 0, 0, 1);
 	rectangle(0, 0, 4, 3, 1, 1, 1);
 }
+void bahamas() {
+	glColor3f(0, 0, 0);
+	glBegin(GL_POLYGON);
+	{
+		glVertex3f(-2.5, 1.5, 0);
+		glVertex3f(-0.5, 0, 0);
+		glVertex3f(-2.5, -1.5, 0);
+	}
+	glEnd();
+	rectangle(0, -1, 5, 1, 0.2, 0.2, 0.75);
+	rectangle(0, 0, 5, 1, 0.75, 0.75, 0);
+	rectangle(0, 1, 5, 1, 0.2, 0.2, 0.75);
+}
 
 void display()							// Called for each frame (about 60 times per second).
 {
@@ -131,7 +146,32 @@ void display()							// Called for each frame (about 60 times per second).
 	
 
 	//Flag Excersise
-	finland();
+	switch (flag)
+	{
+	case 1:
+		japan();
+		break;
+	case 2:
+		//germany();
+		break;
+	case 3:
+		jamaica();
+		break;
+	case 4:
+		finland();
+		break;
+	case 5:
+		bahamas();
+		break;
+	case 6:
+		//somalia();
+		break;
+	case 7:
+		//greece();
+		break;
+	default:
+		break;
+	}
 
 	glutSwapBuffers();												// Swap the hidden and visible buffers.
 
@@ -160,17 +200,26 @@ void reshape(int x, int y)											// Called when the window geometry changes.
 void littleKey(unsigned char key, int x, int y) {
 	switch (key)
 	{
-	case 'a':
-		printf("aaaaa\n");
+	case '1':
+		flag = 1;
 		break;
-	case 'b':
-		printf("bbbbb\n");
+	case '2':
+		flag = 2;
 		break;
-	case 'c':
-		printf("ccccc\n");
+	case '3':
+		flag = 3;
 		break;
-	case 'd':
-		printf("ddddd\n");
+	case '4':
+		flag = 4;
+		break;
+	case '5':
+		flag = 5;
+		break;
+	case '6':
+		flag = 6;
+		break;
+	case '7':
+		flag = 7;
 		break;
 	}
 	glutPostRedisplay();
