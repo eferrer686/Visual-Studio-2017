@@ -1,0 +1,15 @@
+﻿  CG_Demo.cpp
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(74): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(80): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(85): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(87): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(92): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(97): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(100): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(104): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(106): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(169): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(174): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(187): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(192): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  CG_Demo.vcxproj -> C:\Users\edfmg\Documents\Visual Studio 2017\CG_Demo\Debug\CG_Demo.exe

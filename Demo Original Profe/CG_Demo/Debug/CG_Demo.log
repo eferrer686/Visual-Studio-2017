@@ -1,0 +1,3 @@
+﻿  CG_Demo.cpp
+c:\users\edfmg\documents\visual studio 2017\cg_demo\cg_demo\source\cg_demo.cpp(104): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  CG_Demo.vcxproj -> C:\Users\edfmg\Documents\Visual Studio 2017\CG_Demo\Debug\CG_Demo.exe

@@ -1,0 +1,12 @@
+﻿  CG_Demo.cpp
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(65): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(82): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(83): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(84): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(89): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(90): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(91): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(118): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(119): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\cg_demo.cpp(138): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  CG_Demo.vcxproj -> C:\Users\edfmg\Documents\Visual Studio 2017\FlagsHW\Debug\CG_Demo.exe
