@@ -135,6 +135,50 @@ void bahamas() {
 	rectangle(0, 1, 5, 1, 0.2, 0.2, 0.75);
 }
 
+void germany() {
+	rectangle(0, -1, 5, 1, 1, 0.8078, 0);
+	rectangle(0, 0, 5, 1, .866666, 0, 0);
+	rectangle(0, 1, 5, 1, 0, 0, 0);
+}
+void somalia() {
+	glColor3f(1, 1, 1);
+	glBegin(GL_POLYGON); //figura
+	{
+		glVertex3f(0, 0.6, 0);//A
+		glVertex3f(.5, -0.5, 0);//B
+		glVertex3f(0, -0.25, 0);//C
+		glVertex3f(-.5, -0.5, 0);//D
+	}
+	glEnd();
+	glColor3f(1, 1, 1);
+	glBegin(GL_POLYGON); //figura
+	{
+		glVertex3f(-.6, .2, 0);
+		glVertex3f(.6, .2, 0);
+		glVertex3f(0, -0.2, 0);
+
+	}
+	glEnd();
+	rectangle(0, 0, 4, 3, .2549, 0.5372, 0.87);
+}
+void greece() {//las figuras entran por jerarquia
+	//Cuadro
+	rectangle(-1.375, 0.5, 1.25, 0.25, 1, 1, 1);
+	rectangle(-1.375, 0.5, 0.25, 1.25, 1, 1, 1);
+	rectangle(-1.375, 0.5, 1.25, 1.25, .05, 0.368, 0.6862);
+	//Lineas
+	rectangle(0, 1, 4, 0.25, .05, 0.368, 0.6862);	 //Azul
+	rectangle(0, 0.75, 4, 0.25, 1, 1, 1);				 //Blanco
+	rectangle(0, 0.5, 4, 0.25, .05, 0.368, 0.6862);
+	rectangle(0, 0.25, 4, 0.25, 1, 1, 1);
+	rectangle(0, 0, 4, 0.25, 0.05, 0.368, 0.6862);
+	rectangle(0, -0.25, 4, 0.25, 1, 1, 1);
+	rectangle(0, -0.5, 4, 0.25, .05, 0.368, 0.6862);
+	rectangle(0, -0.75, 4, 0.25, 1, 1, 1);
+	rectangle(0, -1, 4, 0.25, .05, 0.368, 0.6862);
+	
+}
+
 void display()							// Called for each frame (about 60 times per second).
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);				// Clear color and depth buffers.
@@ -152,7 +196,7 @@ void display()							// Called for each frame (about 60 times per second).
 		japan();
 		break;
 	case 2:
-		//germany();
+		germany();
 		break;
 	case 3:
 		jamaica();
@@ -164,13 +208,13 @@ void display()							// Called for each frame (about 60 times per second).
 		bahamas();
 		break;
 	case 6:
-		//somalia();
+		somalia();
 		break;
 	case 7:
-		//greece();
+		greece();
 		break;
 	default:
-		break;
+		japan();
 	}
 
 	glutSwapBuffers();												// Swap the hidden and visible buffers.

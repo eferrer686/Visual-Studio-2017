@@ -11,5 +11,18 @@ c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(1
 c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(121): warning C4305: 'argumento': truncamiento de 'double' a 'float'
 c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(133): warning C4305: 'argumento': truncamiento de 'double' a 'float'
 c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(135): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(178): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(139): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(140): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(147): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(156): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(157): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(158): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(162): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(168): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(170): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(172): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(174): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(176): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(178): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\visual studio 2017\flagshw\cg_demo\source\flagshw.cpp(222): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
   CG_Demo.vcxproj -> C:\Users\edfmg\Documents\Visual Studio 2017\FlagsHW\Debug\FlagsHW.exe
